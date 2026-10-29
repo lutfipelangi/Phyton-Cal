@@ -42,3 +42,7 @@ Before running this application, ensure you have the following installed:
    - *If you are on Ubuntu/Debian and Tkinter is missing, install it via terminal:*
      ```bash
      sudo apt install python3-tk
+
+     ## License
+
+[MIT](LICENSE) © MASPEL. This project is open-source and available under the MIT License.
