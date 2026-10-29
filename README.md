@@ -1,8 +1,8 @@
 <div align="center">
-  <h1>🧮 Calculator Maspel</h1>
-  <p>Kalkulator desktop minimalis dan modern yang dibangun dengan Python.</p>
+  <h1>🧮 Python Calculator</h1>
+  <p>A minimalist and modern desktop calculator built with Python.</p>
 
-  <!-- Badges (Label kecil yang keren) -->
+  <!-- Badges -->
   <img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version">
   <img src="https://img.shields.io/badge/GUI-Tkinter-green?style=for-the-badge" alt="Tkinter">
   <img src="https://img.shields.io/badge/Version-1.0-orange?style=for-the-badge" alt="Version">
@@ -10,35 +10,35 @@
 
 ---
 
-## 📖 Tentang Proyek Ini
+## 📖 About The Project
 
-**Calculator Maspel** adalah aplikasi kalkulator desktop sederhana yang dibuat menggunakan bahasa pemrograman **Python** dan *library* antarmuka **Tkinter**. Proyek ini dibuat sebagai sarana belajar membangun aplikasi GUI (Graphical User Interface) yang interaktif dan fungsional.
+**Python Calculator** is a simple desktop calculator application built using **Python** and the **Tkinter** GUI library. This project was created as a hands-on learning experience to build an interactive and functional Graphical User Interface (GUI).
 
-Aplikasi ini tidak memerlukan *library* eksternal tambahan karena Tkinter sudah menjadi bagian bawaan dari instalasi Python.
+The application requires no external libraries, as Tkinter is included in standard Python installations.
 
-## ✨ Fitur Utama
+## ✨ Features
 
-- [x] **Operasi Matematika Dasar**: Penjumlahan (+), Pengurangan (-), Perkalian (*), dan Pembagian (/).
-- [x] **Antarmuka Responsif**: Tombol dirancang memenuhi ruang (sticky) agar mudah diklik.
-- [x] **Penanganan Error**: Dilengkapi dengan *error handling* untuk mencegah aplikasi *crash* (misalnya saat membagi dengan nol).
-- [x] **Desain Minimalis**: Tampilan bersih dengan sentuhan *footer* identitas pembuat.
+- [x] **Basic Arithmetic**: Addition (+), Subtraction (-), Multiplication (*), and Division (/).
+- [x] **Responsive Interface**: Buttons are designed to expand and fill the grid space (sticky) for easier clicking.
+- [x] **Error Handling**: Built-in error handling to prevent the app from crashing (e.g., division by zero).
+- [x] **Minimalist Design**: A clean look with an author footer for a personal touch.
 
-## 📸 Tampilan Aplikasi
+## 📸 Application Preview
 
-*(Ganti teks di bawah ini dengan screenshot kalkulatormu!)*
+*(Replace this text with your screenshot!)*
 
 <div align="center">
-  <!-- Cara menambahkan gambar: Screenshot aplikasimu, simpan di folder proyek dengan nama 'screenshot.png', lalu hapus tanda kurung di bawah -->
-  <img src="screenshot.png" alt="Tampilan Calculator Maspel" width="350">
+  <!-- Make sure you have a 'screenshot.png' file in the folder -->
+  <img src="screenshot.png" alt="Python Calculator UI" width="350">
   <br>
-  <i>Tampilan antarmuka Calculator Maspel v1.0</i>
+  <i>Python Calculator v1.0 Interface</i>
 </div>
 
-## 🛠️ Prasyarat (Requirements)
+## 🛠️ Prerequisites
 
-Sebelum menjalankan aplikasi ini, pastikan komputermu sudah memiliki:
-1. **Python 3.x** (Sudah diuji pada Python 3.12).
-2. **Tkinter** (Biasanya sudah terinstal bawaan di Linux/Windows/Mac).
-   - *Jika menggunakan Ubuntu/Debian dan belum ada Tkinter, install dengan perintah:*
+Before running this application, ensure you have the following installed:
+1. **Python 3.x** (Tested on Python 3.12).
+2. **Tkinter** (Usually included by default on Linux/Windows/Mac).
+   - *If you are on Ubuntu/Debian and Tkinter is missing, install it via terminal:*
      ```bash
      sudo apt install python3-tk
